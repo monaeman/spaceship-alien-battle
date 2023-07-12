@@ -234,6 +234,4 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   start.addEventListener("click", gameInit);
-
-  // KEEP BRACKETS BELOW
 });
