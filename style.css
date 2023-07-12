@@ -52,7 +52,12 @@
   
   .activeAlien {
     background-image: url('images/alienimage.png');
+    accuracy : 0.7; 
+    hull: 3;
+    firepower: 3;
   }
+ 
+    
   
   .spaceship {
     background-image: url('images/userspaceshipone.png');
@@ -62,6 +67,10 @@
     -webkit-transform-origin: 50% 50%;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
+    accuracy: - 0.7;
+    hull :-20; 
+    firepower: -5;
+    
   }
   
   .bullet {
